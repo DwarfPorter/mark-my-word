@@ -28,3 +28,16 @@ public class App extends Application {
         return appComponent;
     }
 }
+public class PdfReader {
+    @SerializedName("items")
+    @Expose
+    private List<PdfReader> items = new ArrayList<>();
+
+    public List<PdfReader> getItems() {
+        return items;
+    }
+
+    public void setItems(List<PdfReader> items) {
+        this.items = items;
+    }
+}
