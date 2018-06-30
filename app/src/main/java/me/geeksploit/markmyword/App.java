@@ -5,6 +5,8 @@ import android.app.Application;
 import me.geeksploit.markmyword.di.AppComponent;
 import me.geeksploit.markmyword.di.DaggerAppComponent;
 import me.geeksploit.markmyword.di.modules.AppModule;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 public class App extends Application {
 
